@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>IksOks</title>
+</head>
+<body>
+    
+    <!--Pocetni ekran za upis imena-->
+   <div id="upisiIgrace" class="upisiIgrace">
+        <h2>Upisite imena igraca</h2>
+        <label for="player1">Player 1:<input type="text" id="player1" placeholder="Ime"></label>
+        <label for="player2">Player 2:<input type="text" id="player2" placeholder="Ime"></label>
+        <button id="pokreniIgru">Pokreni igru</button>
+   </div>
+  
+
+
+    <!--Polja za upis X i O-->
+    <div class="iksOks" id="iksOks">
+        <div class="polje"></div>
+        <div class="polje"></div>
+        <div class="polje"></div>
+        <div class="polje"></div>
+        <div class="polje"></div>
+        <div class="polje"></div>
+        <div class="polje"></div>
+        <div class="polje"></div>
+        <div class="polje"></div>
+    </div>
+
+        <!--Prikaz rezultata i dugmad za (restart partije, rezultata i igre)-->
+    <div class="prikaz" id="prikaz">
+
+        <!--Prikaz rezultata-->
+        <div class="igraci">
+            <p><span id="igracPrvi"></span> <b class="tekst">(X)</b><br><span id="broj1">0</span></p>
+            <p>Nereseno<br><span id="nereseno">0</span></p>
+            <p><span id="igracDrugi"></span> <b class="tekst">(O)</b><br><span id="broj2">0</span></p>
+        </div>
+
+        <!--Prikaz dugmeta-->
+        <div class="presek">
+            <button id="restartPartije">Restart partije</button>
+            <button id="restartRezultata">Restart rezultata</button>
+            <button id="restartCelokupneIgre">Restart celokupne igre</button>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
