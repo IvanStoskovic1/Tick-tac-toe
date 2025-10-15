@@ -6,6 +6,5 @@ Players can take turns, and the game checks for wins or draws.
 # Technologies
 HTML, CSS, JavaScript
 
-Live Demo: [https://ivanstoskovic1.github.io/tick-tac-toe/]
-          (https://ivanstoskovic1.github.io/Tick-tac-toe/)
+Live Demo: https://ivanstoskovic1.github.io/Tick-tac-toe/
 
