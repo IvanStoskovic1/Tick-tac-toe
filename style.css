@@ -568,4 +568,81 @@ label{
     width: 150px;
     height: 150px;
   }
+
+}
+
+@media (max-width:391px) {
+  .upisiIgrace {
+    width: 70%;
+    left: 5%;
+    height: 30%;
+    
+  }
+h2{
+  font-size: x-large;
+}
+label
+{
+  font-size: large;
+  margin-left: 55px;
+}
+  #player1, #player2{
+    width: 70px;
+  }
+
+  .polje {
+    margin: 0 auto;
+  }
+#pokreniIgru
+{
+  height: 25px;
+  font-size: large;
+
+}
+.IKS::before
+{
+  
+ 
+
+font-family:Cursive;
+ 
+
+}
+.IKS1::before
+{
+
+
+font-family:Cursive;
+
+}
+
+
+.OKS::before
+{
+  
+
+
+font-family:Cursive;
+
+  
+}
+.OKS1::before
+{
+  
+
+font-family:Cursive;
+
+}
+#tekst
+{
+  
+font-family:Cursive;
+}
+#restartPartije, #restartRezultata,#restartCelokupneIgre
+{
+  
+height: 25px;
+  font-size: large;
+}
+
 }
